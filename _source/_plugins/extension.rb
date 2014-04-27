@@ -1,5 +1,6 @@
 require 'jekyll-assets'
 require 'jekyll-assets/compass'
+require 'jekyll-slim'
 require 'sprockets'
 
 module Jekyll
@@ -41,7 +42,7 @@ module Jekyll
 
   class StaticFile
     include Compressor
-    
+
     def write(dest)
       dest_path = self.destination(dest)
 
