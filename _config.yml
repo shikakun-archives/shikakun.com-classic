@@ -1,0 +1,26 @@
+name:
+source: _source
+assets:
+  sources:
+    - _assets/images
+    - _assets/stylesheets
+    - _assets/javascripts
+    - _vendors/components
+  baseurl: /assets/
+  js_compressor: uglifier
+  css_compressor: sass
+url: 'http://shikakun.com/'
+meta:
+  viewport: ''
+  keywords: '鹿'
+  description: '鹿'
+  author: '鹿'
+og:
+  title: '鹿'
+  type: 'website'
+  image: ''
+  url: 'http://shikakun.com/'
+  description: '鹿'
+  site_name: '鹿'
+fb:
+  app_id: '195675573793488'

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="{{ site.meta.viewport }}">
+    <title>{{ page.title }}</title>
+    <meta name="keywords" content="{{ site.meta.keywords }}">
+    <meta name="description" content="{{ site.meta.description }}">
+    <meta name="author" content="{{ site.meta.author }}">
+    <meta property="og:title" content="{{ site.og.title }}">
+    <meta property="og:type" content="{{ site.og.type }}">
+    <meta property="og:image" content="{{ site.og.image }}">
+    <meta property="og:url" content="{{ site.og.url }}">
+    <meta property="og:description" content="{{ site.og.description }}">
+    <meta property="og:site_name" content="{{ site.og.site_name }}">
+    <meta property="fb:admins" content="{{ site.fb.admins }}">
+    <meta property="fb:app_id" content="{{ site.fb.app_id }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="{{ site.url }}">
+    {% stylesheet application %}
+    {% javascript application %}
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

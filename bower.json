@@ -1,0 +1,6 @@
+{
+  "name": "shikakun vendor assets",
+  "dependencies": {
+    "jquery": "1.10.2"
+  }
+}
